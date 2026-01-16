@@ -7,6 +7,7 @@ import DosageCard from "@/components/article/DosageCard";
 import ProductAd from "@/components/article/ProductAd";
 import AdSenseBlock from "@/components/article/AdSenseBlock";
 import FAQ from "@/components/article/FAQ";
+import ScientificSources from "@/components/article/ScientificSources";
 
 const Index = () => {
   return (
@@ -459,6 +460,9 @@ const Index = () => {
 
         {/* FAQ */}
         <FAQ />
+
+        {/* Sources Scientifiques */}
+        <ScientificSources />
 
         {/* Footer */}
         <footer className="text-center pt-8 border-t border-border mt-8">
